@@ -14,29 +14,71 @@
     },
     {
       title: "Coffe Syusyu",
-      items: [
-        { name: "Kopi Susu Original", price: "15k", desc: "Premium Japanese matcha with steamed milk." },
-        { name: "Gula Aren", price: "15k", desc: "Rich dark chocolate, hot or iced." },
-        { name: "Vani La", price: "15k", desc: "Rich dark chocolate, hot or iced." },
-        { name: "Salted Caramel", price: "15k", desc: "Rich dark chocolate, hot or iced."}
-        // { name: "Lychee Tea", price: "22k", desc: "Refreshing black tea with sweet lychee fruit." },
-      ]
+    items: [
+  {
+    name: "Kopi Susu Original",
+    price: "15k",
+    desc: "A balanced blend of coffee and milk with a smooth taste."
+  },
+  {
+    name: "Gula Aren",
+    price: "15k",
+    desc: "Milk coffee sweetened with natural palm sugar."
+  },
+  {
+    name: "Vani La",
+    price: "15k",
+    desc: "Milk coffee with a soft and creamy vanilla flavor."
+  },
+  {
+    name: "Salted Caramel",
+    price: "15k",
+    desc: "Milk coffee with sweet caramel and a hint of salt."
+  }
+  // {
+  //   name: "Lychee Tea",
+  //   price: "22k",
+  //   desc: "Refreshing black tea with sweet lychee flavor."
+  // }
+]
+
     },
     {
       title: "Non-Coffee",
       items: [
-        { name: "Chocolate", price: "13k", desc: "Rich dark chocolate, hot or iced." },
-        { name: "Matcha", price: "13k", desc: "Premium Japanese matcha with steamed milk." },
-        { name: "Red Velvet", price: "13k", desc: "Rich dark chocolate, hot or iced."}
-        // { name: "Lychee Tea", price: "22k", desc: "Refreshing black tea with sweet lychee fruit." },
-      ]
+  {
+    name: "Chocolate",
+    price: "13k",
+    desc: "Rich chocolate drink with a smooth and creamy taste."
+  },
+  {
+    name: "Matcha",
+    price: "13k",
+    desc: "Japanese matcha blended with milk for a soft and earthy flavor."
+  },
+  {
+    name: "Red Velvet",
+    price: "13k",
+    desc: "Creamy red velvet drink with a mild chocolate taste."
+  }
+  // {
+  //   name: "Lychee Tea",
+  //   price: "22k",
+  //   desc: "Refreshing black tea with sweet lychee flavor."
+  // }
+]
+
     },
     {
       title: "Eats",
       items: [
-        { name: "Butter Croissant", price: "24k", desc: "Flaky, buttery perfection." },
-        { name: "Pain au Chocolat", price: "28k", desc: "Croissant filled with dark chocolate." },
-        { name: "Banana Bread", price: "20k", desc: "Moist, house-made banana bread." },
+        { name: "Donut",
+    price: "24k",
+    desc: "Soft and fluffy donut with a light sweetness."
+  },
+        // { name: "Butter Croissant", price: "24k", desc: "Flaky, buttery perfection." },
+        // { name: "Pain au Chocolat", price: "28k", desc: "Croissant filled with dark chocolate." },
+        // { name: "Banana Bread", price: "20k", desc: "Moist, house-made banana bread." },
       ]
     }
   ];

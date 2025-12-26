@@ -1,13 +1,19 @@
+import Image from 'next/image';
+
 export default function Footer() {
     return (
       <footer className="bg-zinc-900 text-zinc-400 py-12 border-t border-zinc-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className='flex items-start gap-4'>
+
+            <Image src="/logo.png" alt="Logo" width={70} height={70} />
             <div>
               <h3 className="text-2xl font-bold text-white font-serif mb-4">NISKALA</h3>
               <p className="text-sm">
                 Brewing stories, one cup at a time.
               </p>
+            </div>
             </div>
             <div>
               <h4 className="text-white font-bold mb-4">Quick Links</h4>
