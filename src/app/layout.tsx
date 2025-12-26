@@ -19,6 +19,9 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Niskala Coffeeshop",
+  icons: {
+    icon: "/logo.png",
+  },
   description: "Experience the Essence of Coffee",
 };
 

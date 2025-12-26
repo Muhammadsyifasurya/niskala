@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faTiktok, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
 
 export default function Footer() {
@@ -26,9 +28,24 @@ export default function Footer() {
             <div>
               <h4 className="text-white font-bold mb-4">Connect</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="https://www.instagram.com/_niskalacoffee" className="hover:text-amber-500 transition-colors">Instagram</a></li>
-                <li><a href="https://www.tiktok.com/@_niskalacoffee" className="hover:text-amber-500 transition-colors">Tiktok</a></li>
-                <li><a href="https://wa.me/62895401285164" className="hover:text-amber-500 transition-colors">Whatsapp</a></li>
+                <li>
+                  <a href="https://www.instagram.com/_niskalacoffee" className="flex items-center gap-2 hover:text-amber-500 transition-colors" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faInstagram} className="w-5 h-5" />
+                    <span>Instagram</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/@_niskalacoffee" className="flex items-center gap-2 hover:text-amber-500 transition-colors" target="_blank" rel="noopener noreferrer">
+                     <FontAwesomeIcon icon={faTiktok} className="w-5 h-5" />
+                    <span>Tiktok</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://wa.me/62895401285164" className="flex items-center gap-2 hover:text-amber-500 transition-colors" target="_blank" rel="noopener noreferrer">
+                     <FontAwesomeIcon icon={faWhatsapp} className="w-5 h-5" />
+                    <span>Whatsapp</span>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
