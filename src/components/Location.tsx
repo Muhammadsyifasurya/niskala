@@ -23,7 +23,7 @@ export default function Location() {
                     </div>
                     <div>
                       <h4 className="text-lg font-bold text-zinc-900 dark:text-zinc-100">Our Location</h4>
-                      <p className="text-zinc-600 dark:text-zinc-400">Ngolorong RT05, Panjangrejo, Pundong, Bantul, Yogyakarta 55771</p>
+                      <p className="text-zinc-600 dark:text-zinc-400">Nglorong RT05, Panjangrejo, Pundong, Bantul, Yogyakarta 55771</p>
                     </div>
                   </div>
   
